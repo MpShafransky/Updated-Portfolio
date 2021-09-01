@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(code.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+i.custom {font-size: 6em; color:white;}
+    
+@media screen and (max-width: 992px) {
+    header {
+      background: gray;
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+    nav {
+      background-color: blue;
+      display: flex;
+    }
+  }
+  
+@media screen and (max-width: 576px) {
+    .coming-soon:hover {
+      background-color: silver;
+      opacity: 0;
+      
+      
+    
+      
+    }
+    
+    
+    
+}
+
+h1 {
+  font-size: 40px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+
+}
+
+nav ul {
+    text-align: right;
+    margin: 20px;
+}
+
+li {
+    display: inline;
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 20px;
+}
+
+a {
+    color: white;
+    
+}
+
+nav a:hover {
+    color:hotpink;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.About { 
+    color: white;
+    font-weight: bold;
+   
+}
+.projects {
+    color: white;
+    font-weight: bold;
+}
+.sec1 {
+    text-align: center;
+}
+.sec2 {
+    text-align: center;
+}
+#contact {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.carousel-inner img {
+    margin: auto;
+  }
+  .carousel-caption {
+      color:white;
+      background-color: black;
+  }
